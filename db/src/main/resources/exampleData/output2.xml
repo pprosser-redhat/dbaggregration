@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:output xmlns:ns2="http://www.example.org/OutputSchema">
+    <outputNumber>3</outputNumber>
+    <outputTime>2001-12-31T12:00:00</outputTime>
+    <reference>reference two</reference>
+    <assets assetid="2">
+        <assetDescription>an asset 2</assetDescription>
+    </assets>
+</ns2:output>

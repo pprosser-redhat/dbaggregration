@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:input xmlns:tns="http://www.example.org/InputSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/InputSchema InputSchema.xsd ">
+  <inputNumber>0</inputNumber>
+  <inputTime>2001-12-31T12:00:00</inputTime>
+</tns:input>

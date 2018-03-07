@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/OutputSchema" xmlns:tns="http://www.example.org/OutputSchema" elementFormDefault="unqualified">
+
+    <complexType name="outputData">
+    	<sequence>
+    		<element name="outputNumber" type="int"></element>
+    		<element name="outputTime" type="dateTime"></element>
+    		<element name="reference" type="string"></element>
+    		<element name="assets" type="tns:assetList" minOccurs="1" maxOccurs="unbounded"> </element>
+    	</sequence>
+    </complexType>
+
+    <element name="output" type="tns:outputData"></element>
+
+    <complexType name="assetList">
+    	<sequence>
+    		<element name="assetDescription" type="string"></element>
+    	</sequence>
+    	<attribute name="assetid" type="int"></attribute>
+    </complexType>
+</schema>
